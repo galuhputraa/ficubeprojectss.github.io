@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Ficube</title>
+    <!-- Instalasi Bootstrap dengan menggunakan version 4.6-->
+    <!-- 1 hubumgam file custom css yg ada di  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="./Bab 5/Ficube Project/fontawesome/css/fontawesome-all.min.css">
+    
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="./js/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="https://kit.fontawesome.com/1e61749556.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- navbar -->
+    <!-- tambahin marigin atau padding untuk nav kanan p-3 padding menyeluruh -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 sticky-top">
+        <div class="container">
+        <img src="./images/ficube.png" alt="Logo Ficube" class="img-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <!-- tambahin ml aut dibawah biar ke kanan -->
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link text-info mr-3" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link mr-3" href="#">About</a>
+            <a class="nav-item nav-link mr-3" href="#">Service</a>
+            <a class="nav-item nav-link mr-3" href="#">Case Studies</a>
+            <a class="nav-item nav-link mr-3" href="#">News</a>
+            <a class="nav-item nav-link mr-3" href="#">Contact</a>
+          </div>
+        </div>
+        </div>
+      </nav>
+
+    <!-- End Navigation Bar -->
+
+    <!-- TEXT MUTED, DISPLAY 3 , & BUTTON -->
+    <!-- banner di edit di custom -->
+
+    <!-- pb 5 = padding bottom 5 container fluid-->
+    <!-- py-5 = padding top -bottom 5  -->
+    <!-- my-5 = margin-top bottiom 5   -->
+    <!-- kenapa col md-4 gadiisi, kenapa galangsung md-12? -->
+
+    <!-- Start Banner -->
+    <div class="container-fluid banner pb-5">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col md-8 my-5">
+                    <h4 class="text-muted m-2">Your Financial Solutions</h4>
+                    <h1 class="display-3  m-2">The Fastest Way <br> to Achieve Success</h1>
+                    <a href="" class="btn btn-info btn-lg p-3 m-2">GET STARTED NOW!</a>
+                </div>
+                <div class="col md-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Banner -->
+
+    <!-- Start learn about us -->
+    <!-- container itu class dari boostrapnya -->
+    <div class="container py-5 learn">
+        <div class="row py-5">
+            <div class="col md-6 my-3">
+                <hr>
+                <h1>Learn About Us</h1>
+                <p class="text-primary">A Tribute to Those Who Served As Executive Secretary and Treasurer for the American Finance Association</p>
+                <p>The 2016 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quam quibusdam soluta corrupti rerum animi porro molestias, officia deleniti. Fugit culpa labore delectus, unde itaque libero nisi. Ullam, sed officia!</p>
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fa-regular fa-circle-check"></i><a href="">  Workshop on a small business accounting and finance</a></li>
+                    <li class="list-group-item"><i class="fa-regular fa-circle-check"></i><a href="">  Missauga, Ontario, Canada Departement of American</a></li>
+                    <li class="list-group-item"><i class="fa-regular fa-circle-check"></i><a href="">  Contact a Reviewer if you want your paper to be submitted into US</a></li>
+                  </ul>
+            </div>
+            
+            <!-- aspect ratio gedein dari iframe -->
+            <div class="col md-6 my-3">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-JMLdhbUbzE" allowfullscreen></iframe>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Learn About Us -->
+
+    <!-- Start Features Section -->
+    <!-- tambahin class feature disini -->
+    <div class="container-fluid features">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col md-12 text-center">
+                    <h1>Our Features</h1>
+                    <p>A Tribute to Those who Served as Executive Secretary and <br> Treasurer for the American Finance Association</p>
+                </div>
+
+                <!-- ada 3 item div -->
+            </div>
+
+            <div class="row py-4">
+                <div class="col md-4 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./images/features1.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">We Innovated</h5>
+                          <p class="card-text">We Belive The Specialization is a Key</p>
+                          <a href="#" class="btn btn-info">Read More!</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col md-4 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./images/features2.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Full Service</h5>
+                          <p class="card-text">We Belive The Specialization is a Key</p>
+                          <a href="#" class="btn btn-info">Read More!</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col md-4 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./images/features3.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Performance</h5>
+                          <p class="card-text">We Belive The Specialization is a Key</p>
+                          <a href="#" class="btn btn-info">Read More!</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Features Section -->
+
+    <!-- Start Our Client -->
+    <div class="container-fluid client">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col md-12 text-center">
+                    <h1>Our Client</h1>
+                </div>
+            </div>
+
+            <div class="row text-center py-5">
+                <div class="col md-3">
+                    <img src="./images/clogo-1.png" alt="logo1" class="img-fluid">
+                </div>
+
+                <div class="col md-3">
+                    <img src="./images/clogo-2.png" alt="logo2" class="img-fluid">
+                </div>
+
+                <div class="col md-3">
+                    <img src="./images/clogo-3.png" alt="logo3" class="img-fluid">
+                </div>
+
+                <div class="col md-3">
+                    <img src="./images/clogo-4.png" alt="logo4" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Our Client -->
+
+    <!-- Start Footer Section -->
+    <div class="container-fluid py-5 text-white footer">
+        <div class="container">
+            <div class="row">
+                <div class="col md-5">
+                    <h3>Our Contact</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Phone: (021) 123 123 123 - 123456789 <br>galuhputra_warman@yahoo.com</p>
+                </div>
+                <div class="col md-5">
+                    <div class="row">
+                        <div class="col md-6">
+                            <h3>Quick Links</h3>
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="">About</a></li>
+                                <li class="list-group-item"><a href="">News</a></li>
+                                <li class="list-group-item"><a href="">Contact</a></li>
+                                <li class="list-group-item"><a href="">Testimonial</a></li>
+                                <li class="list-group-item"><a href="">Typography</a></li>
+                              </ul>
+                        </div>
+                        <div class="col md-6">
+                            <h3>Other Links</h3>
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="">About</a></li>
+                                <li class="list-group-item"><a href="">News</a></li>
+                                <li class="list-group-item"><a href="">Contact</a></li>
+                                <li class="list-group-item"><a href="">Testimonial</a></li>
+                                <li class="list-group-item"><a href="">Typography</a></li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col md-2">
+                    <h3>Social Media</h3>
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-git"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Section -->
+
+</body>
+</html>
